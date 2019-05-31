@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+	font: 10px/1.6 "Open Sans", serif;
+	height: 100%;
+}
+
+body {
+	font-size: 1.6rem;
+	color: #333;
+	min-height: 100%;
+}
+
+.container {
+	background-image: url('../img/chess_desk.jpg');
+	box-sizing: border-box;
+	width: 950px;
+	height: 950px;
+	margin: 0 auto;
+	position: relative;
+	padding: 43px;
+}
+
+.checkouts {
+	background-color: white;
+	border-radius: 50%;
+}
+
+.black {
+	background-color: brown;
+}
+
+.cell {
+	width: 107px;
+	height: 107px;
+	float: left;
+}
